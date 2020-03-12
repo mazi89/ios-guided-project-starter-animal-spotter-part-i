@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9C999D14241947F900CC1867 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C999D13241947F900CC1867 /* User.swift */; };
 		9C999D1624195A5B00CC1867 /* Bearer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C999D1524195A5B00CC1867 /* Bearer.swift */; };
+		9CDBE686241AA98800EAF6EC /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDBE685241AA98800EAF6EC /* Animal.swift */; };
 		CEB8F70C236B8D3600455692 /* AnimalDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB8F70B236B8D3600455692 /* AnimalDetailViewController.swift */; };
 		CEDCA57B22668AB2009EA535 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDCA57A22668AB2009EA535 /* AppDelegate.swift */; };
 		CEDCA58022668AB2009EA535 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDCA57E22668AB2009EA535 /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		9C999D13241947F900CC1867 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		9C999D1524195A5B00CC1867 /* Bearer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bearer.swift; sourceTree = "<group>"; };
+		9CDBE685241AA98800EAF6EC /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 		CEB8F70B236B8D3600455692 /* AnimalDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailViewController.swift; sourceTree = "<group>"; };
 		CEDCA57722668AB2009EA535 /* AnimalSpotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalSpotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDCA57A22668AB2009EA535 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -50,6 +52,7 @@
 			children = (
 				9C999D13241947F900CC1867 /* User.swift */,
 				9C999D1524195A5B00CC1867 /* Bearer.swift */,
+				9CDBE685241AA98800EAF6EC /* Animal.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEB8F70C236B8D3600455692 /* AnimalDetailViewController.swift in Sources */,
+				9CDBE686241AA98800EAF6EC /* Animal.swift in Sources */,
 				CEDCA59A226697BD009EA535 /* APIController.swift in Sources */,
 				9C999D14241947F900CC1867 /* User.swift in Sources */,
 				9C999D1624195A5B00CC1867 /* Bearer.swift in Sources */,
